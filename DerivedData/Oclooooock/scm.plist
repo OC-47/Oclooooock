@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FoundWorkingCopyPaths</key>
+	<array>
+		<string>/Users/e115747</string>
+		<string>/Users/e115747/Desktop/2_latter/iOS_Deveroper/projects/20130127</string>
+		<string>/Users/e115747/Desktop/2_latter/experimentationII/myzt9/files</string>
+		<string>/Users/e115747/Desktop/2_latter/UML/projects/Oclooooock</string>
+		<string>/Users/e115747/git/OpenTwinown</string>
+		<string>/Users/e115747/Desktop/2_latter/UML/projects/Clock</string>
+		<string>/Users/e115747/Desktop/2_latter/OS/ex2.6/filewriteproject</string>
+		<string>/Users/e115747/Desktop/2_latter/iOS_Deveroper/projects/modeling_2</string>
+		<string>/Users/e115747/Documents/Processing/move_ball</string>
+		<string>/Users/e115747/Documents/Processing/shooting_rotation_star</string>
+		<string>/Users/e115747/Documents/Processing/shooting_star</string>
+		<string>/Users/e115747/Documents/Processing/shooting_star_music</string>
+		<string>/Users/e115747/Workspace/os/FileWrite</string>
+	</array>
+	<key>LastWorkingCopyScanDate</key>
+	<date>2013-02-11T15:05:43Z</date>
+	<key>MissingFilePaths</key>
+	<array/>
+	<key>Version</key>
+	<integer>4</integer>
+</dict>
+</plist>
