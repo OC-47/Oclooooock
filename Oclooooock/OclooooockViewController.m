@@ -36,7 +36,7 @@
     
     NSMutableArray *imgBox = [[NSMutableArray alloc]init];
     
-    for(int i=37; i<636; i++){
+    for(int i=1; i<=600; i++){
 
         NSBundle *bundle = [NSBundle mainBundle];
         NSString *path = [bundle pathForResource:[NSString stringWithFormat:@"ishot-%d",i]ofType:@"png"];
