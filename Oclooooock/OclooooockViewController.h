@@ -6,8 +6,8 @@
 //  Copyright (c) 2013年 edu.stanford.cs193p.oshiro. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface OclooooockViewController : ViewController
+@interface OclooooockViewController : UIViewController
 
 @end
