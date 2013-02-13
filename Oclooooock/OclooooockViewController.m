@@ -8,6 +8,10 @@
 
 #import "OclooooockViewController.h"
 
+#define IMAGE_HEADER @"ishot-"
+#define IMAGE_TYPE   @"png"
+#define IMAGE_COUNT  600
+
 @interface OclooooockViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UILabel *label;
@@ -36,10 +40,13 @@
     
     NSMutableArray *imgBox = [[NSMutableArray alloc]init];
     
-    for(int i=37; i<636; i++){
+    for(int i=1; i<=IMAGE_COUNT; i++){
 
         NSBundle *bundle = [NSBundle mainBundle];
-        NSString *path = [bundle pathForResource:[NSString stringWithFormat:@"ishot-%d",i]ofType:@"png"];
+        NSMutableString *imageName = [NSMutableString string];
+        [imageName appendString:IMAGE_HEADER];
+        [imageName appendFormat:@"%d",i];
+        NSString *path = [bundle pathForResource:imageName ofType:@"png"];
         [imgBox addObject:[[UIImage alloc]initWithContentsOfFile:path]];
     }
     
