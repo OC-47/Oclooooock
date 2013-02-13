@@ -607,6 +607,7 @@
 		B6B8C5DD16C9CA5D0047C2CD /* ishot-598.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B8C38516C9CA5C0047C2CD /* ishot-598.png */; };
 		B6B8C5DE16C9CA5D0047C2CD /* ishot-599.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B8C38616C9CA5C0047C2CD /* ishot-599.png */; };
 		B6B8C5DF16C9CA5D0047C2CD /* ishot-600.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B8C38716C9CA5C0047C2CD /* ishot-600.png */; };
+		FC341E2A16CB2D44007561B1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC341E2916CB2D44007561B1 /* icon.png */; };
 		FCD30BF216C92EBE00D734E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD30BF116C92EBE00D734E4 /* UIKit.framework */; };
 		FCD30BF416C92EBE00D734E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD30BF316C92EBE00D734E4 /* Foundation.framework */; };
 		FCD30BF616C92EBE00D734E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD30BF516C92EBE00D734E4 /* CoreGraphics.framework */; };
@@ -1222,6 +1223,7 @@
 		B6B8C38516C9CA5C0047C2CD /* ishot-598.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ishot-598.png"; path = "OCpic/ishot-598.png"; sourceTree = "<group>"; };
 		B6B8C38616C9CA5C0047C2CD /* ishot-599.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ishot-599.png"; path = "OCpic/ishot-599.png"; sourceTree = "<group>"; };
 		B6B8C38716C9CA5C0047C2CD /* ishot-600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ishot-600.png"; path = "OCpic/ishot-600.png"; sourceTree = "<group>"; };
+		FC341E2916CB2D44007561B1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		FCD30BEE16C92EBE00D734E4 /* Oclooooock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oclooooock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD30BF116C92EBE00D734E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCD30BF316C92EBE00D734E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1258,6 +1260,7 @@
 		FCD30BE516C92EBE00D734E4 = {
 			isa = PBXGroup;
 			children = (
+				FC341E2916CB2D44007561B1 /* icon.png */,
 				FCD3157A16C9376100D734E4 /* Default-Portrait~ipad.png */,
 				FCD30BF716C92EBE00D734E4 /* Oclooooock */,
 				FCD30BF016C92EBE00D734E4 /* Frameworks */,
@@ -2575,6 +2578,7 @@
 				FCD30C0816C92EBE00D734E4 /* Default-568h@2x.png in Resources */,
 				FCD30C0B16C92EBE00D734E4 /* MainStoryboard.storyboard in Resources */,
 				FCD3157B16C9376100D734E4 /* Default-Portrait~ipad.png in Resources */,
+				FC341E2A16CB2D44007561B1 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
