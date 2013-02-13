@@ -53,7 +53,7 @@
     NSString *path = [bundle pathForResource:imageName ofType:@"png"];
     imageView.image = [[UIImage alloc]initWithContentsOfFile:path];
 
-    imageIndex = (imageIndex + 1) % IMAGE_COUNT;
+    imageIndex = (imageIndex % IMAGE_COUNT) + 1;
 
 
 }
