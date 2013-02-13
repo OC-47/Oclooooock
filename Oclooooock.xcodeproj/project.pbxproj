@@ -17,7 +17,6 @@
 		FCD30C0616C92EBE00D734E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD30C0516C92EBE00D734E4 /* Default@2x.png */; };
 		FCD30C0816C92EBE00D734E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD30C0716C92EBE00D734E4 /* Default-568h@2x.png */; };
 		FCD30C0B16C92EBE00D734E4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD30C0916C92EBE00D734E4 /* MainStoryboard.storyboard */; };
-		FCD30C0E16C92EBE00D734E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD30C0D16C92EBE00D734E4 /* ViewController.m */; };
 		FCD30C1616C92F2C00D734E4 /* OclooooockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD30C1516C92F2C00D734E4 /* OclooooockViewController.m */; };
 		FCD3132216C934B500D734E4 /* ishot-100.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD310CA16C934AF00D734E4 /* ishot-100.png */; };
 		FCD3132316C934B500D734E4 /* ishot-101.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD310CB16C934AF00D734E4 /* ishot-101.png */; };
@@ -637,8 +636,6 @@
 		FCD30C0516C92EBE00D734E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FCD30C0716C92EBE00D734E4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FCD30C0A16C92EBE00D734E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		FCD30C0C16C92EBE00D734E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FCD30C0D16C92EBE00D734E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FCD30C1416C92F2C00D734E4 /* OclooooockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OclooooockViewController.h; sourceTree = "<group>"; };
 		FCD30C1516C92F2C00D734E4 /* OclooooockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OclooooockViewController.m; sourceTree = "<group>"; };
 		FCD310CA16C934AF00D734E4 /* ishot-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ishot-100.png"; path = "OCpic/ishot-100.png"; sourceTree = "<group>"; };
@@ -1293,8 +1290,6 @@
 				FCD30C0016C92EBE00D734E4 /* AppDelegate.h */,
 				FCD30C0116C92EBE00D734E4 /* AppDelegate.m */,
 				FCD30C0916C92EBE00D734E4 /* MainStoryboard.storyboard */,
-				FCD30C0C16C92EBE00D734E4 /* ViewController.h */,
-				FCD30C0D16C92EBE00D734E4 /* ViewController.m */,
 				FCD30C1416C92F2C00D734E4 /* OclooooockViewController.h */,
 				FCD30C1516C92F2C00D734E4 /* OclooooockViewController.m */,
 				FCD30BF816C92EBE00D734E4 /* Supporting Files */,
@@ -2592,7 +2587,6 @@
 			files = (
 				FCD30BFE16C92EBE00D734E4 /* main.m in Sources */,
 				FCD30C0216C92EBE00D734E4 /* AppDelegate.m in Sources */,
-				FCD30C0E16C92EBE00D734E4 /* ViewController.m in Sources */,
 				FCD30C1616C92F2C00D734E4 /* OclooooockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
