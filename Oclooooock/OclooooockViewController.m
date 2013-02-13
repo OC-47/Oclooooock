@@ -27,35 +27,34 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self startAnimation];
-    [NSTimer scheduledTimerWithTimeInterval:0.5
+    [self updateDateAndImage];
+    [NSTimer scheduledTimerWithTimeInterval:1
                                      target:self
-                                   selector:@selector(showDate)
+                                   selector:@selector(updateDateAndImage)
                                    userInfo:nil
                                     repeats:YES];
 }
 
-
-- (void) startAnimation{
-    
-    NSMutableArray *imgBox = [[NSMutableArray alloc]init];
-    
-    for(int i=1; i<=IMAGE_COUNT; i++){
-
-        NSBundle *bundle = [NSBundle mainBundle];
-        NSMutableString *imageName = [NSMutableString string];
-        [imageName appendString:IMAGE_HEADER];
-        [imageName appendFormat:@"%d",i];
-        NSString *path = [bundle pathForResource:imageName ofType:@"png"];
-        [imgBox addObject:[[UIImage alloc]initWithContentsOfFile:path]];
-    }
-    
-    imageView.animationImages = imgBox;
-    imageView.animationDuration = imgBox.count;
+- (void) updateDateAndImage
+{
+    [self showImage];
+    [self showDate];
+}
 
 
-    
-    [imageView startAnimating];
+- (void) showImage
+{
+    static int imageIndex = 1;
+
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSMutableString *imageName = [NSMutableString string];
+    [imageName appendString:IMAGE_HEADER];
+    [imageName appendFormat:@"%d",imageIndex];
+    NSString *path = [bundle pathForResource:imageName ofType:@"png"];
+    imageView.image = [[UIImage alloc]initWithContentsOfFile:path];
+
+    imageIndex = (imageIndex % IMAGE_COUNT) + 1;
+
 
 }
 
